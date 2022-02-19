@@ -21,7 +21,7 @@ a {
   font-size: 17px;
 }
 
-.active {
+a .active {
   position: relative;
   width: 77px;
   height: 24px;
@@ -107,6 +107,10 @@ a {
   left: -10px;
   align-items: center;
   bottom: 110px;
+}
+
+.palet a:hover {
+  background-color: floralwhite;
 }
 
 .imagen1 {
@@ -495,9 +499,9 @@ body {
   list-style: none;
   position: relative;
   bottom: 40px;
-
 }
-.agrupador  { 
+
+.agrupador {
   position: relative;
   bottom: 40px;
 }
@@ -507,4 +511,16 @@ body {
   flex-direction: column;
   position: relative;
   padding-bottom: 60px;
+}
+
+.see:hover {
+  background-color: rgb(255, 140, 0);
+}
+
+.h:disabled {
+  background-color: #f4f1f0;
+}
+
+.botones3:enabled {
+  background-color: #f4f1f0;
 }

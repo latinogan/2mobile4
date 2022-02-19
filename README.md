@@ -2,12 +2,12 @@
 
 # Project Name
 
-> Description the project.
+> SKELETON MOBILE VERSION.
 
 
 ## Built With
 
-- Major languages
+- HTML AND CSS
 - Frameworks
 - Technologies used
 
@@ -42,15 +42,9 @@ To get a local copy up and running follow these simple example steps.
 
 👤 **Author1**
 
-- GitHub: [@githubhandle](https://github.com/githubhandle)
-- Twitter: [@twitterhandle](https://twitter.com/twitterhandle)
-- LinkedIn: [LinkedIn](https://linkedin.com/in/linkedinhandle)
-
-👤 **Author2**
-
-- GitHub: [@githubhandle](https://github.com/githubhandle)
-- Twitter: [@twitterhandle](https://twitter.com/twitterhandle)
-- LinkedIn: [LinkedIn](https://linkedin.com/in/linkedinhandle)
+- GitHub:https://github.com/latinogan
+- Email:roger.castillo.arce@gmail.com 
+- LinkedIn: [LinkedIn](https://www.linkedin.com/in/roger-smith-a35738179/)
 
 ## 🤝 Contributing
 
