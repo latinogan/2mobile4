@@ -12,6 +12,8 @@
 .topnav #myLinks {
   display: none;
 }
+.developer  {
+} 
 
 a {
   float: left;
@@ -68,8 +70,6 @@ a .active {
 .pad {
   position: relative;
   color: #ff6b00;
-
-  /* bottom: 30px; */
   width: 327px;
   height: 124px;
   left: 15px;
@@ -377,10 +377,6 @@ img {
 .abouted {
   width: 380px;
   height: 1000px;
-
-  /* add image as background but dosnt show in code viewer side */
-
-  /* background: url(../pictures/Frame1.png) right top no-repeat; */
   background-size: 270px;
   position: relative;
   background-color: #1c1a19;
@@ -450,6 +446,7 @@ body {
 .mob {
   position: relative;
   top: 10px;
+  right: 20px;
 }
 
 .letras2 {
@@ -462,6 +459,18 @@ body {
   line-height: 44px;
   margin-left: 25px;
   color: #fff;
+}
+.skills  {
+  width: 164px;
+  height: 24px;
+  font-family: "Crete Round", serif;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 32px;
+  line-height: 44px;
+  margin-left: 25px;
+  color: #fff;
+  padding-left: 10px;
 }
 
 .letras4 {
@@ -484,7 +493,7 @@ body {
   line-height: 43px;
   color: #fff;
   position: relative;
-  padding-left: 40px;
+  padding-left: 35px;
 }
 
 .rectangle {
@@ -499,7 +508,9 @@ body {
   list-style: none;
   position: relative;
   bottom: 40px;
+  padding-left: 50px;
 }
+
 
 .agrupador {
   position: relative;
@@ -511,6 +522,7 @@ body {
   flex-direction: column;
   position: relative;
   padding-bottom: 60px;
+  padding-left: 40px;
 }
 
 .see:hover {
