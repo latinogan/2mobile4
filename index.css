@@ -12,8 +12,6 @@
 .topnav #myLinks {
   display: none;
 }
-.developer  {
-} 
 
 a {
   float: left;
@@ -460,7 +458,8 @@ body {
   margin-left: 25px;
   color: #fff;
 }
-.skills  {
+
+.skills {
   width: 164px;
   height: 24px;
   font-family: "Crete Round", serif;
@@ -510,7 +509,6 @@ body {
   bottom: 40px;
   padding-left: 50px;
 }
-
 
 .agrupador {
   position: relative;
