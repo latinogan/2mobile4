@@ -205,12 +205,18 @@ img {
 .botones4 {
   width: 49px;
   height: 40px;
-  display: flex;
-  flex-direction: row;
-  justify-content: space-between;
-  position: static;
+  position: relative;
+  left: 90px;
   padding: 10px 19px;
   margin-left: 20px;
+}
+
+.botones4 ul {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  font-size: 0;
+  align-items: center;
 }
 
 .botones4 button {
@@ -271,7 +277,7 @@ img {
 .botones3 {
   position: relative;
   bottom: 340px;
-  left: 30px;
+  margin-right: 90px;
 }
 
 .botones3 button {
@@ -282,6 +288,13 @@ img {
   line-height: 20px;
   background-color: rgba(255, 255, 255, 0.24);
   color: #fff;
+}
+
+.botones3 ul {
+  display: flex;
+  font-size: 0;
+  justify-content: space-around;
+  align-items: center;
 }
 
 .brian button {
@@ -360,10 +373,24 @@ img {
 .abouted {
   width: 380px;
   height: 1000px;
-  background: url(../pictures/Frame1.png) right top no-repeat;
+
+  /* add image as background but dosnt show in code viewer side */
+
+  /* background: url(../pictures/Frame1.png) right top no-repeat; */
   background-size: 270px;
   position: relative;
   background-color: #1c1a19;
+}
+
+.frame {
+  position: relative;
+  left: 180px;
+  width: 210px;
+  bottom: 30px;
+}
+
+.line {
+  padding-left: 38px;
 }
 
 .p {
@@ -413,6 +440,12 @@ body {
   background: #ff6b00;
   color: #fff;
   margin-left: 39px;
+  margin-top: 30px;
+}
+
+.mob {
+  position: relative;
+  top: 10px;
 }
 
 .letras2 {
@@ -466,4 +499,5 @@ body {
   display: flex;
   flex-direction: column;
   position: relative;
+  padding-bottom: 60px;
 }
