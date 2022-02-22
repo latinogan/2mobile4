@@ -370,7 +370,7 @@ form ul {
   position: relative;
   bottom: 790px;
   width: 380px;
-  height: 1790px;
+  height: 1760px;
   padding-bottom: 50px;
   display: flex;
   flex-direction: column;
@@ -543,7 +543,7 @@ body {
 
 footer {
   width: 380px;
-  height: 900px;
+  height: 990px;
   flex-direction: column;
   background-color: #fff;
   position: relative;
@@ -554,9 +554,10 @@ footer {
   width: 327px;
   height: 216px;
   position: relative;
-  left: 20px;
-  top: 60px;
+  top: 70px;
+  left: 25px;
   font-family: "Inter", sans-serif;
+  text-align: center;
   font-size: 32px;
   font-weight: bold;
   line-height: 44px;
@@ -580,14 +581,16 @@ textarea {
   height: 110px;
   box-sizing: border-box;
   background-color: #f5eec8;
-  margin-top: 10px;
+  margin-top: 20px;
 }
 
 form input {
   height: 50px;
   background-color: #fff;
-  border: none;
-  margin-top: 1em;
+  border-top: #fff;
+  border-right: #fff;
+  border-left: #fff;
+  margin-top: 2em;
 }
 
 .get {
@@ -631,5 +634,14 @@ form input {
   width: 160px;
   height: 8px;
   position: relative;
-  left: 50px;
+  left: 60px;
+  bottom: 40px;
+}
+
+.line2 {
+  width: 375px;
+  height: 6px;
+  background-color: #b9bbc0;
+  position: relative;
+  top: 200px;
 }
