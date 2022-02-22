@@ -213,6 +213,12 @@ img {
   margin-left: 20px;
 }
 
+form ul {
+  position: relative;
+  top: 110px;
+  list-style: none;
+}
+
 .botones4 ul {
   display: flex;
   flex-direction: row;
@@ -364,7 +370,7 @@ img {
   position: relative;
   bottom: 790px;
   width: 380px;
-  height: 2000px;
+  height: 1760px;
   padding-bottom: 50px;
   display: flex;
   flex-direction: column;
@@ -533,4 +539,109 @@ body {
 
 .botones3:enabled {
   background-color: #f4f1f0;
+}
+
+footer {
+  width: 380px;
+  height: 990px;
+  flex-direction: column;
+  background-color: #fff;
+  position: relative;
+  right: 39px;
+}
+
+.interested {
+  width: 327px;
+  height: 216px;
+  position: relative;
+  top: 70px;
+  left: 25px;
+  font-family: "Inter", sans-serif;
+  text-align: center;
+  font-size: 32px;
+  font-weight: bold;
+  line-height: 44px;
+  color: #172b4d;
+}
+
+::placeholder {
+  height: 18px;
+  font-family: "Inter", sans-serif;
+  font-style: normal;
+  color: #979493;
+  font-weight: normal;
+  font-size: 15px;
+  line-height: 24px;
+  display: flex;
+}
+
+input,
+textarea {
+  width: 300px;
+  height: 110px;
+  box-sizing: border-box;
+  background-color: #f5eec8;
+  margin-top: 20px;
+}
+
+form input {
+  height: 50px;
+  background-color: #fff;
+  border-top: #fff;
+  border-right: #fff;
+  border-left: #fff;
+  margin-top: 2em;
+}
+
+.get {
+  width: 130px;
+  height: 60px;
+  margin-top: 20px;
+  margin-left: 50px;
+  font-family: "Inter", sans-serif;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 17px;
+  line-height: 24px;
+  color: #fff;
+  background-color: #ff6b00;
+}
+
+.get:hover {
+  background-color: rgb(255, 140, 0);
+}
+
+.palet2 {
+  display: flex;
+  flex-direction: row;
+  position: absolute;
+  font-size: 0;
+  justify-content: space-around;
+  left: 10px;
+  align-items: center;
+  bottom: 110px;
+}
+
+.palet2 a:hover {
+  background-color: rgb(231, 198, 130);
+}
+
+.palet2 img {
+  padding: 6px;
+}
+
+.shape {
+  width: 160px;
+  height: 8px;
+  position: relative;
+  left: 60px;
+  bottom: 40px;
+}
+
+.line2 {
+  width: 375px;
+  height: 6px;
+  background-color: #b9bbc0;
+  position: relative;
+  top: 200px;
 }
