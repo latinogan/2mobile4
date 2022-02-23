@@ -300,17 +300,10 @@ form ul {
 }
 
 .botones3 ul {
-  float: right;
   display: flex;
-  font-size:0;
-  justify-content: space-around;
-  align-items: center;
-  
-
-  /*display: flex;
   font-size: 0;
   justify-content: space-around;
-  align-items: center;*/
+  align-items: center;
 }
 
 .brian button {
@@ -377,7 +370,7 @@ form ul {
 .z {
   position: relative;
   bottom: 790px;
-  width: 380px;
+  width: 400px;
   height: 1760px;
   padding-bottom: 50px;
   display: flex;
